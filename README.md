@@ -1,11 +1,11 @@
 <div align="center">
   <h1>QuickBites Food Delivery Platform</h1>
 </div>
-
+----
 ### 🚀 Frameworks and Language Used
 - Framework: **Spring Boot**
 - Language: **Java**
-
+----
 ### 🌊 Data Flow
 
 #### Controllers
@@ -14,7 +14,7 @@
 | AdminController  | /admin/signup, /admin/signIn, /restaurant, /restaurant/{id}, /craveCrafter, /craveCrafter/{id}        |
 | FoodieController | /foodie/signIn, /foodie/signup, /foodie/signOut, /feastFile/schedule, /feastFile/cancel, /restaurants |
 |                  | /craveCrafters, /rating, /ratings/restaurant/{id}                                                    |
-
+----
 ### Services
 | Service             | Description                                                               |
 |---------------------|---------------------------------------------------------------------------|
@@ -25,7 +25,7 @@
 | FoodieService       | Provides methods for foodie-related actions, such as signing up, signing in, signing out, and scheduling feast files |
 | RatingService       | Handles rating-related operations, such as adding ratings and retrieving ratings for restaurants |
 | RestaurantService   | Manages restaurant-related operations, such as adding, deleting, and fetching restaurants |
-
+----
 ### Repositories
 | Repository       | Description                                                 |
 |------------------|-------------------------------------------------------------|
@@ -36,7 +36,7 @@
 | FoodieRepo       | Manages CRUD operations for Foodie entities                |
 | RatingRepo       | Manages CRUD operations for Rating entities                |
 | RestaurantRepo   | Manages CRUD operations for Restaurant entities            |
-
+----
 ### Usage
 - Once the QuickBite Food Delivery System is up and running, you can interact with it using various API endpoints. Here are some example requests using cURL:
 
@@ -107,18 +107,19 @@ curl -X DELETE -H "email: john.doe@example.com" -H "token: <auth_token>"
 http://localhost:8080/quickbite/feastFile/cancel
 ```
 - Feel free to explore and interact with other API endpoints as well.
-
+----
 ### Contributing
 - Contributions to the QuickBite project are welcome. If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on the GitHub repository.
-
+----
 ### License
 - This project is licensed under the MIT License.
-
+----
 ### Acknowledgments
 - OpenAPI Specification - The specification used for documenting the API endpoints.
 - Spring Boot - The framework used for building the QuickBite platform.
 - Hibernate - The ORM (Object-Relational Mapping) framework used for interacting with the database.
 - MySQL - The relational database management system used for storing food and user data.
+---- 
 ### Contact
 - For any questions or inquiries, please contact:
 - Project Maintainer: Aniket Yogesh Gosavi
