@@ -2,10 +2,12 @@
   <h1>QuickBites Food Delivery Platform</h1>
 </div>
 ----
+
 ### 🚀 Frameworks and Language Used
 - Framework: **Spring Boot**
 - Language: **Java**
 ----
+
 ### 🌊 Data Flow
 
 #### Controllers
